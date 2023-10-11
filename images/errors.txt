@@ -1,0 +1,16 @@
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 2": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 3": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 4": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 5": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "logo_s.png": Duplicate path: logo_s.png
+[2023/10/2 11:21:01] layer "logo.png": Duplicate path: logo.png
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 5": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 4": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 3": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー 2": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png のコピー": Expected end of input but "\u306E" found.
+[2023/10/2 11:21:01] layer "nav_bg_highlight.png": Duplicate path: nav_bg_highlight.png
+[2023/10/2 11:21:01] layer "nav_bg_dark.png": Duplicate path: nav_bg_dark.png
+[2023/10/2 11:21:01] layer "navi-bg01.png": Duplicate path: navi-bg01.png
+[2023/10/2 11:21:01] layer "logo.png": Duplicate path: logo.png

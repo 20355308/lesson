@@ -1,0 +1,267 @@
+@charset "utf-8";
+html{
+  font-size:18px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,figure{
+ margin:0;
+ padding:0;
+}
+
+main{
+width:90vw;
+margin: auto;
+ }
+
+header{
+  background-color: #fff;
+}
+
+header nav{
+  width:90vw;
+  margin: auto;
+}
+.navbar-brand{
+  width:90px;
+}
+.headerLogo{
+  max-width: 100%;
+}
+ .navbar-nav{
+  text-align: center;
+  font-size:1rem;
+ }
+
+#topvisual{
+max-width:1400px;
+margin: auto;
+}
+#topvisual img{
+  width:100%;
+}
+
+main h2{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* お知らせ */
+
+.infoCard{
+  display: flex;
+  max-width:700px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+ }
+ 
+.infoCard figure{
+ width: min(100%, 300px);
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.infoCard figure img{
+  aspect-ratio: 300/212;
+  object-fit: cover;
+  width: 100%;
+}
+
+.infoCard figcaption{
+font-size: 0.8rem;
+margin-top:0.5rem;
+  height:5rem;
+  contain: paint;
+}
+
+.infoCard figcaption h1{
+  font-size:1.1rem;
+  text-align: center;
+  margin-bottom:0.3rem;
+}
+
+.infoCard figure .button {
+  color: hsl(21 90% 100%);
+  background-color: hsl(21 90% 50%);
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  margin: 0.3rem auto 0;
+}
+
+.infoCard figure .button:hover {
+  background-color: hsl(21 90% 70%);
+  color: hsl(21 90% 30%);
+}
+
+
+/* Footer */
+footer #footerTop{
+  background-color:#005792 ;
+  color:#fff;
+  font-weight:bold;
+  margin: 2rem 0 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer #footerNav{
+  background-color: #333;
+  padding:1rem;
+  }
+footer #footerNav .navColumn{
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+footer #footerNav .navColumn h2{
+  font-size:0.9rem;
+  color:#df570b;
+  margin-top:0.7rem;
+  margin-bottom:0.6rem;
+  }
+
+footer #footerNav .navColumn ul{
+list-style: none;
+padding: 0;
+margin:0;
+font-size:0.8rem;
+}
+
+footer #footerNav .navColumn a{
+  color:#fff;
+}
+   
+
+
+
+
+/* ------------------------------- 768px以上 ----------------------------------- */
+
+@media screen and (min-width:768px) {
+
+  /* ナビゲーション */
+.navbar{
+  --bs-navbar-padding-y: 0rem;
+}
+.navbar>.container-fluid {
+  align-items: start;
+  justify-content: center;
+}
+
+.navbar-nav{
+  font-size:0.8rem;
+ }
+ .navbar-collapse {
+  flex-grow: unset;
+}
+
+#navbarNavDropdown ul li a{
+background-color: #ebebc6;
+color:#13334c;
+margin-left: 2px;
+margin-right: 2px;
+width:4.5rem;
+padding-top:1.3rem;
+}
+
+#home #navbarNavDropdown ul li#navHome a,
+#gym #navbarNavDropdown ul li#navGym a,
+#navbarNavDropdown ul li a:hover{
+background-color: #13334c;
+color: #ebebc6;
+border-bottom:#df570b solid 3px;
+}
+
+/* ナビゲーション終わり */
+
+ .infoCard{
+ display: flex;
+ max-width:700px;
+ flex-wrap: wrap;
+ gap: calc(100px / 2);
+}
+
+.infoCard figure{
+max-width: 300px;
+}
+
+footer #footerNav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding:1rem;
+  }
+
+}
+
+/* ------------------------------- 992px以上 ----------------------------------- */
+
+@media screen and (min-width:992px) {
+header nav, main{
+  width:1000px;
+  margin: auto;
+   }
+
+/* ナビゲーション */
+
+.navbar-nav{
+  font-size:1rem;
+ }
+#navbarNavDropdown ul li a{
+  width:5rem;
+  }
+/* -----ナビゲーションおわり----- */
+
+
+ .infoCard{
+ display: flex;
+ max-width:1000px;
+ flex-wrap: wrap;
+ gap: calc(100px / 3);
+}
+.infoCard figure{
+ flex-basis: 300px;
+}
+.infoCard figcaption{
+font-size: 1rem;
+  margin-top:0.5rem;
+    height:6rem;
+    contain: paint;
+  }
+
+
+
+/* FooterNavigation */
+footer{
+  margin: auto;
+}
+footer #footerNav{
+display: flex;
+justify-content: space-around;
+background-color: #333;
+padding:1rem;
+}
+
+
+footer #footerNav .navColumn h2{
+  font-size:1rem;
+  text-align: center;
+  color:#df570b;
+ }
+ footer #footerNav .navColumn ul{
+list-style: none;
+padding: 0;
+margin:0;
+font-size:0.9rem;
+ }
+ 
+ 
+}
